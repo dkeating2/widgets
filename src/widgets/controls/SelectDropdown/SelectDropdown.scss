@@ -1,0 +1,21 @@
+.SelectDropdown {
+  &__Input {
+  }
+  &__Popover {
+    min-height: 500px;
+    min-width: 500px;
+    .Header {
+    }
+    .Wrapper {
+      .Portal {
+        display: flex;
+      }
+    }
+    .Footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  &__Autocomplete {
+  }
+}
